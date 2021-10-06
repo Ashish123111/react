@@ -1,6 +1,7 @@
 {
   "name": "material-dashboard-react",
   "version": "1.10.0",
+  "homepage": "https://Ashish123111.github.io/react/",
   "description": "Material Dashboard React. Coded by Creative Tim",
   "private": false,
   "main": "dist/index.js",
@@ -21,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -40,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
-  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
+ 
   "optionalDependencies": {
     "@babel/core": "7.14.0",
     "typescript": "4.2.4"
